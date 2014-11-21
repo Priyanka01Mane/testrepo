@@ -1,0 +1,12 @@
+<%= flash[:notice] %>
+<% @page_title = "Admin Menu" %>
+
+<div class ="Admin">
+<h2>Access Menu</h2>
+<ul>
+<li><%= link_to("Admin" , '#')%></li>
+<li><%= link_to("Logout" , :action => "logout")%></li>
+</ul>
+
+</div>
+

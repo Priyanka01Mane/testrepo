@@ -1,0 +1,25 @@
+<h1>Subjects</h1>
+
+<table>
+<tr>
+	<th>Name</th>
+	<th>Position</th>
+	<th>Visible</th>
+	<th>Actions</th>
+</tr>
+
+<% @sub.each do|f| %>
+
+<tr>
+	<td><%= f.name %></td>
+	<td><%= f.position %></td>
+	<td><%=f.visible %></td>
+	<td>
+
+
+	</td>
+</tr>
+
+<% end %>
+</table>
+
